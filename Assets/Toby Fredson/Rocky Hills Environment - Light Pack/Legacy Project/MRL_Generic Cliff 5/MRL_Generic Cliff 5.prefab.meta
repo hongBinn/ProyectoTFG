@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d6dc584291af5db48985299ab4f18d73
+labels:
+- LegacyProject
+timeCreated: 1494179550
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Generic
+    Cliff 5/MRL_Generic Cliff 5.prefab
+  uploadId: 178734

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: b6b55900a82122d4cac45581a7cd97db
+labels:
+- bark
+- cliff
+- dirt
+- grass
+- materials
+- pine
+- rockgrass
+- rocks
+- smalldetails
+- spruce
+- stones
+- tree
+- trunk
+timeCreated: 1493850546
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: materials
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceTrunk_Nature.mat
+  uploadId: 178734

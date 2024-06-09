@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d971e1180ed0164429565de418045a27
+labels:
+- LegacyProject
+timeCreated: 1494179550
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Mountain
+    Rocks/Mountain Rocks 1.prefab
+  uploadId: 178734

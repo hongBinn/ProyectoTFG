@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c
+labels:
+- bark
+- pine
+- prefabs
+- spruce
+- tree
+timeCreated: 1493846671
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/RHEF_SpruceTerrainC.prefab
+  uploadId: 178734

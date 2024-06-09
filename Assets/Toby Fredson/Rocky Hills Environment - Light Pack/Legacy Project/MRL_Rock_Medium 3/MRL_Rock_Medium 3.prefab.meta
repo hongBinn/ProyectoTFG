@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 146fe48d3eac509409646b4c8407ab24
+labels:
+- LegacyProject
+timeCreated: 1493665910
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Rock_Medium
+    3/MRL_Rock_Medium 3.prefab
+  uploadId: 178734

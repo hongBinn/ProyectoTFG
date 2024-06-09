@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: c38badcdd764dfb488882e68d04ff995
+labels:
+- cliff
+- dirt
+- grass
+- prefabs
+- rockgrass
+- rocks
+- stones
+timeCreated: 1494164256
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: prefabsmobile
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs
+    Mobile/RHEF_GenericCliffA_Mobile.prefab
+  uploadId: 178734

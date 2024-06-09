@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2477b84aa51f82041831e74c437ce5e7
+labels:
+- readme
+timeCreated: 1494174769
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: readme
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/Legacy
+    Project_Read Me!.txt
+  uploadId: 178734

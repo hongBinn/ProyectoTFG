@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 84e3ce602c993b342bd26896a5a6203b
+labels:
+- LegacyProject
+timeCreated: 1493657656
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: prefabs
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Legacy Project/MRL_Low
+    Cliff_Medium/MRL_Low Cliff_Medium.prefab
+  uploadId: 178734

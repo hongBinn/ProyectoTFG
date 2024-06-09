@@ -1,0 +1,24 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="BuildManager">
+			<method name="OnArcherSelected"/>
+			<method name="OnCasterSelected"/>
+		</type>
+		<type fullname="GameManagerScript">
+			<method name="OnButtonBackMenu"/>
+			<method name="OnButtonBackMenu"/>
+			<method name="OnButtonMenu"/>
+			<method name="OnButtonReplay"/>
+			<method name="OnButtonReplay"/>
+			<method name="OnSpeedButton"/>
+			<method name="SetHelpMenuActive"/>
+			<method name="SetHelpMenuDesactive"/>
+		</type>
+		<type fullname="StartMenu">
+			<method name="OnButtonMenu"/>
+			<method name="OnButtonQuit"/>
+			<method name="OnButtonStage1"/>
+			<method name="OnButtonStartGame"/>
+		</type>
+	</assembly>
+</linker>

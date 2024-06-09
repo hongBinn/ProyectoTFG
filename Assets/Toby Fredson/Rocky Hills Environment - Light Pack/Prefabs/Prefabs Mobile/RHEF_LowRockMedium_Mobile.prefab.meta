@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: c62c2aa8570885845900b3d909da3034
+labels:
+- cliff
+- dirt
+- grass
+- prefabs
+- rockgrass
+- rocks
+- stones
+timeCreated: 1494164436
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: prefabsmobile
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Prefabs/Prefabs
+    Mobile/RHEF_LowRockMedium_Mobile.prefab
+  uploadId: 178734

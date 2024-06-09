@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 36ede47c7a6a4504c8bb7ccacbb8582b
+labels:
+- cliff
+- dirt
+- grass
+- leaves
+- materials
+- pine
+- rockgrass
+- rocks
+- smalldetails
+- spruce
+- stones
+- tree
+timeCreated: 1493850735
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: materials
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89939
+  packageName: Rocky Hills Environment - Light Pack
+  packageVersion: 1.0
+  assetPath: Assets/Toby Fredson/Rocky Hills Environment - Light Pack/Materials/RHEF_SpruceLeaves_Nature.mat
+  uploadId: 178734
