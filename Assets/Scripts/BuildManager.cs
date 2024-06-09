@@ -75,6 +75,7 @@ public class BuildManager : MonoBehaviour
                             {
                                 // Si no hay suficiente costo, muestra una animación.
                                 costAnimator.SetTrigger("FlickTrigger");
+                                GameManagerScript.timeScale = GameManagerScript.timeScaleData;
                             }
                         }
                     }

@@ -64,7 +64,7 @@ public class GameManagerScript : MonoBehaviour
         }
 
         // Actualizar el texto de la velocidad del juego.
-        if (timeScale != 0.01f)
+        if (timeScale == 0.02f)
             speedText.text = "x2";
         else
             speedText.text = "x1";
@@ -117,6 +117,7 @@ public class GameManagerScript : MonoBehaviour
     // Método para reiniciar el nivel actual.
     public void OnButtonReplay()
     {
+        timeScaleData = 0.01f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -152,6 +153,7 @@ public class GameManagerScript : MonoBehaviour
     {
         // Restaurar la escala del tiempo al valor por defecto.
         timeScale = 0.01f;
+        timeScaleData = 0.01f;
         SceneManager.LoadScene("StartScene");
     }
 
@@ -163,7 +165,7 @@ public class GameManagerScript : MonoBehaviour
             timeScale += 0.01f;
             timeScaleData = timeScale;
         }
-        else
+        else if(timeScale == 0.02f)
         {
             timeScale -= 0.01f;
             timeScaleData = timeScale;

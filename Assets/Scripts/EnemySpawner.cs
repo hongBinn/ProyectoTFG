@@ -44,20 +44,23 @@ public class EnemySpawner : MonoBehaviour
                 // Si no es el último enemigo de la oleada, espera el tiempo especificado antes de generar el próximo.
                 if (i != wave.count - 1)
                 {
-                    yield return new WaitForSeconds(wave.rate);
+                    yield return new WaitForSeconds(wave.rate * GameManagerScript.timeScale * 100);
                 }
             }
             // Espera hasta que todos los enemigos de la oleada sean eliminados.
             while (countEnemyAlive > 0)
             {
-                yield return 0;
+                yield return null;
             }
 
             // Espera un tiempo antes de empezar la siguiente oleada.
-            yield return new WaitForSeconds(waveRate);
+            yield return new WaitForSeconds(wave.rate * GameManagerScript.timeScale * 100);
         }
         // Espera hasta que todos los enemigos sean eliminados al final de todas las oleadas.
-        while (countEnemyAlive > 0) yield return 0;
+        while (countEnemyAlive >= 1)
+        {
+            yield return null;
+        }
         // Llama al método EnemyDie del GameManagerScript para indicar que todos los enemigos han sido derrotados.
         GameManagerScript.Instance.EnemyDie();
     }
