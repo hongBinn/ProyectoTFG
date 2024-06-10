@@ -693,8 +693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5b10713c78ee949ba7ddbe91015f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  lifePoint: 200
+  speed: 3
+  lifePoint: 500
   lpSlider: {fileID: 5702799539523025796}
   wayID: 2
 --- !u!82 &3449809515560586037

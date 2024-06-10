@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -26,6 +27,7 @@ public class GameManagerScript : MonoBehaviour
     // Contador de enemigos eliminados y el número total de enemigos que deben ser eliminados.
     private int allEnemyDie = 0;
     private int enemyDieNum = 0;
+    private int allEnemy = 16;
 
     // Texto que muestra el número de enemigos eliminados.
     public Text enemyDieNumText;
@@ -63,11 +65,17 @@ public class GameManagerScript : MonoBehaviour
                 timeScale = timeScaleData;
         }
 
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            ToggleHelpMenu();
+        }
         // Actualizar el texto de la velocidad del juego.
         if (timeScale == 0.02f)
             speedText.text = "x2";
         else
             speedText.text = "x1";
+        if (enemyDieNum == allEnemy)
+            Win();
     }
 
     // Método para actualizar el número de enemigos eliminados.
@@ -88,6 +96,7 @@ public class GameManagerScript : MonoBehaviour
     // Método para finalizar el juego mostrando un mensaje.
     void EndGame(string message)
     {
+        ResetTimeScale();
         endUi.SetActive(true);
         endMessage.text = message;
     }
@@ -106,18 +115,19 @@ public class GameManagerScript : MonoBehaviour
         EndGame("Failed");
     }
 
+
     // Método para contar cuando un enemigo muere. Si todos los enemigos han muerto, el jugador gana.
     public void EnemyDie()
     {
         allEnemyDie++;
-        if (allEnemyDie >= 2)
+        if (allEnemyDie >= 2 && allEnemy == allEnemyDie)
             Win();
     }
 
     // Método para reiniciar el nivel actual.
     public void OnButtonReplay()
     {
-        timeScaleData = 0.01f;
+        ResetTimeScale();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -138,22 +148,24 @@ public class GameManagerScript : MonoBehaviour
         }
     }
 
-    // Métodos para activar o desactivar el menú de ayuda.
-    public void SetHelpMenuActive()
+    // Método para alternar el estado del menú de ayuda.
+    public void ToggleHelpMenu()
     {
-        helpUi.SetActive(true);
-    }
-    public void SetHelpMenuDesactive()
-    {
-        helpUi.SetActive(false);
+        // Verificar el estado actual del menú de ayuda y alternar.
+        if (helpUi.activeSelf)
+        {
+            helpUi.SetActive(false);
+        }
+        else
+        {
+            helpUi.SetActive(true);
+        }
     }
 
     // Método para volver al menú principal.
     public void OnButtonBackMenu()
     {
-        // Restaurar la escala del tiempo al valor por defecto.
-        timeScale = 0.01f;
-        timeScaleData = 0.01f;
+        
         SceneManager.LoadScene("StartScene");
     }
 
@@ -170,5 +182,12 @@ public class GameManagerScript : MonoBehaviour
             timeScale -= 0.01f;
             timeScaleData = timeScale;
         }
+    }
+
+    // Restaurar la escala del tiempo al valor por defecto.
+    private void ResetTimeScale()
+    {
+        timeScale = 0.01f;
+        timeScaleData = 0.01f;
     }
 }

@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1053266463365804718, guid: cd15c1b7c88393649abc29972bfc5b09, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1053266463365804718, guid: cd15c1b7c88393649abc29972bfc5b09, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1053266463365804718, guid: cd15c1b7c88393649abc29972bfc5b09, type: 3}
       propertyPath: m_SizeDelta.x
@@ -70,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5239800698758473771, guid: cd15c1b7c88393649abc29972bfc5b09, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8883540934899021872, guid: cd15c1b7c88393649abc29972bfc5b09, type: 3}
       propertyPath: m_Pivot.x
@@ -637,8 +637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be5b10713c78ee949ba7ddbe91015f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
-  lifePoint: 100
+  speed: 6
+  lifePoint: 250
   lpSlider: {fileID: 6445468263781383578}
   wayID: 1
 --- !u!135 &-3153047384252319402

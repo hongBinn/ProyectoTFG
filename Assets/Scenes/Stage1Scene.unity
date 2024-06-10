@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D
+  m_Text: A
 --- !u!222 &2478447
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1161,7 +1161,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: D
 --- !u!222 &43176181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1920,7 +1920,7 @@ GameObject:
   - component: {fileID: 104439452}
   - component: {fileID: 104439451}
   m_Layer: 5
-  m_Name: A
+  m_Name: D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3930,7 +3930,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 669462328}
         m_TargetAssemblyTypeName: GameManagerScript, Assembly-CSharp
-        m_MethodName: SetHelpMenuActive
+        m_MethodName: ToggleHelpMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8559,7 +8559,7 @@ MonoBehaviour:
     count: 3
     rate: 10
   START: {fileID: 1342103597}
-  waveRate: 10
+  waveRate: 0.2
 --- !u!114 &669462327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8619,10 +8619,10 @@ MonoBehaviour:
   waves:
   - enemyPrefab: {fileID: 8278976011222098997, guid: 34aa2c5210a11944980419ec901a777a, type: 3}
     count: 5
-    rate: 3
+    rate: 1
   - enemyPrefab: {fileID: 8278976011222098997, guid: 34aa2c5210a11944980419ec901a777a, type: 3}
     count: 7
-    rate: 4
+    rate: 1.5
   START: {fileID: 268182591}
   waveRate: 0.2
 --- !u!1001 &675036476
@@ -18833,7 +18833,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 669462328}
         m_TargetAssemblyTypeName: GameManagerScript, Assembly-CSharp
-        m_MethodName: SetHelpMenuDesactive
+        m_MethodName: ToggleHelpMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24099,7 +24099,7 @@ GameObject:
   - component: {fileID: 2050726067}
   - component: {fileID: 2050726066}
   m_Layer: 5
-  m_Name: D
+  m_Name: A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

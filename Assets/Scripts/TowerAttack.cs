@@ -95,7 +95,7 @@ public class TowerAttack : MonoBehaviour
                 GameObject attack = GameObject.Instantiate(attackEffect, attackEfectPosition.position, attackEfectPosition.rotation);
                 // Establece el objetivo del ataque.
                 attack.GetComponent<Attack>().SetTarget(enemys[0].transform);
-            }, GameManagerScript.timeScale));
+            }, GameManagerScript.timeScale * 10));
         }
         else
         {
